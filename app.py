@@ -101,9 +101,6 @@ def scrape_behavioral_questions():
     except requests.exceptions.RequestException:
         return None
 
-
-BACKUP_QUESTIONS = load_external_dataset()
-
 # --- MAIN STREAMLIT APP ---
 def main():
     st.set_page_config(page_title="AI Resume Analyzer", layout="wide")
@@ -213,4 +210,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
