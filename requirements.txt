@@ -1,8 +1,11 @@
 streamlit
-google-generativeai
-pypdf
-beautifulsoup4
-requests
 python-dotenv
-lxml
+requests
+google-generativeai
+beautifulsoup4
+pypdf
 python-docx
+datasets
+kaggle
+pandas
+lxml
