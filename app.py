@@ -10,8 +10,8 @@ import google.generativeai as genai
 from bs4 import BeautifulSoup
 from pypdf import PdfReader
 import docx
-from datasets import load_dataset
-from kaggle.api.kaggle_api_extended import KaggleApi
+'''from datasets import load_dataset
+from kaggle.api.kaggle_api_extended import KaggleApi'''
 import pandas as pd
 
 # --- CONSTANTS ---
@@ -264,4 +264,5 @@ def main():
             st.markdown(gemini_response.text)
 
 if __name__ == "__main__":
+
     main()
