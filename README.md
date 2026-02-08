@@ -1,4 +1,4 @@
-#AI-Powered Resume Analyzer & Interview Preparation System
+### AI-Powered Resume Analyzer & Interview Preparation System
 
 An intelligent web application that analyzes resumes using a Retrieval-Augmented Generation (RAG) approach and generates personalized technical and behavioral interview questions.
 This project helps users prepare efficiently for interviews by combining LLM-based reasoning with real-world interview question sources.
@@ -101,7 +101,7 @@ Context-aware chatbot is initialized
 
 User interacts with AI for interview preparation
 
-### 🏗️ Architecture Diagram
+### Architecture Diagram
 
 ```mermaid
 flowchart TD
