@@ -22,19 +22,19 @@ Providing an interactive chatbot for practice and feedback
 
 ## Features
 
-## Resume Upload & Parsing
+### Resume Upload & Parsing
 
 Supports PDF and DOCX resumes
 
 Automatic text extraction
 
-## AI-Based Skill Extraction
+### AI-Based Skill Extraction
 
 Uses Google Gemini LLM
 
 Identifies top technical and soft skills
 
-## Retrieval-Augmented Generation (RAG):
+### Retrieval-Augmented Generation (RAG):
 
 Combines LLM output with real interview questions
 
@@ -42,7 +42,7 @@ Scrapes data from trusted platforms
 
 Multi-Source Question Retrieval
 
-## Technical questions from:
+### Technical questions from:
 
 GeeksforGeeks
 
@@ -52,7 +52,7 @@ Behavioral questions from:
 
 The Muse
 
-## Context-Aware Interview Chatbot
+### Context-Aware Interview Chatbot
 
 Remembers extracted skills
 
@@ -60,7 +60,7 @@ Generates follow-up questions
 
 Provides feedback on answers
 
-**User-Friendly Web Interface**
+### User-Friendly Web Interface
 
 Built with Streamlit
 
@@ -68,7 +68,7 @@ Session-based interaction handling
 
 
 
-## Tech Stack
+### Tech Stack
 
 Programming Language: Python
 
@@ -92,7 +92,7 @@ APIs: Google Generative AI API
 
 
  
-## System Workflow
+### System Workflow
 
 User uploads resume (PDF/DOCX)
 
@@ -184,7 +184,7 @@ Offline question datasets
 Multi-language resume support
 
 
-# Acknowledgements
+## Acknowledgements
 
 Google Gemini API
 
