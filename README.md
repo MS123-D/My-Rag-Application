@@ -102,23 +102,23 @@ Context-aware chatbot is initialized
 User interacts with AI for interview preparation
 
 ***Architecture Diagram***
-Mermaid Diagram (Recommended for GitHub)
+```mermaid
 flowchart TD
     A[User Uploads Resume<br/>(PDF / DOCX)] --> B[Resume Text Extraction<br/>(PyPDF / python-docx)]
     B --> C[Skill Extraction<br/>(Google Gemini LLM)]
     C --> D[Identified Skills]
 
-
     D --> E[Technical Question Retrieval<br/>(GeeksforGeeks, InterviewBit)]
     D --> F[Behavioral Question Retrieval<br/>(The Muse)]
 
-
-    E --> G[Question Aggregation<br/>(RAG Layer)]
+    E --> G[Question Aggregation Layer]
     F --> G
 
+    G --> H[Context-Aware Chatbot<br/>(Gemini LLM + RAG)]
+    H --> I[Interactive Interview Preparation<br/>(Streamlit UI)]
 
-    G --> H[Context-Aware Chatbot<br/>(Gemini LLM)]
-    H --> I[Streamlit Web Interface]
+```
+
 ***Installation & Setup***
 Clone the Repository
 git clone https://github.com/MS123-D/AI-ResumeAnalyzer.git
